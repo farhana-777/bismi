@@ -1,0 +1,137 @@
+body{
+    margin:0;
+    padding: 0%;
+    font-size: x-large;
+    font-weight: 1000;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 1020px;
+    width: 100%;
+}
+
+h5{
+    color:coral;
+    list-style: lower-greek;
+}
+
+.heading{
+    text-align: center;
+}
+
+.content1{
+    background-image: url("https://static.wixstatic.com/media/11062b_ac76d10dc2294577ab44d4968c0f77d7~mv2.jpg/v1/fill/w_1349,h_1020,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/11062b_ac76d10dc2294577ab44d4968c0f77d7~mv2.jpg");
+    background-size: cover;
+    height: 1200px;
+    width: 100%;
+}
+
+#heading1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(1, 1, 7);
+    line-height: 0.5;
+}
+#heading3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: red;
+}
+
+.divScroll{
+    height: 400 vh;
+}
+::-webkit-scrollbar{
+    width: 20px;
+}
+::-webkit-scrollbar-track{
+    background : #dddd;
+    background: transparent;
+}
+::-webkit-scrollbar-thumb{
+    background: grey;
+    border-radius: 20px;
+}
+
+#button{
+    
+    background-color:transparent;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    font-style: italic;
+    text-decoration: black;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;   
+}
+#button:hover{
+    color: rgb(190, 32, 32);   
+}
+
+#login{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.content2{
+    font-family:cursive;
+    color: black;
+    font-style: italic;
+    font-weight: 300;
+background-image:url("//static.wixstatic.com/media/11062b_0002142444534490b950a8797535371df000.jpg/v1/fill/w_1349,h_940,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/11062b_0002142444534490b950a8797535371df000.jpg");
+background-size: cover;
+height:100%;
+width: 100%;
+}
+h2{
+    color:coral;
+}
+p{
+    align-content: center;
+    font-size:25px;
+    color:black;
+    font-family: cursive;
+}
+
+.para1{
+    width : 900px;
+    height : 100px;
+}
+
+.mainpara{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ .photo{
+    display: flex;
+    gap: 0%;
+ }   
+    .column{
+        display:flex;
+        flex-direction: column;
+        gap: 10px;
+        font-style:italic;
+        font-family:cursive;
+        color:black;
+        font-size:larger;
+        font: weight 200px;
+        background-color:aliceblue;
+    }
+    .box{
+        font-style: italic;
+        font-family: cursive;
+        color: black;
+    }
+     .ms{
+       
+        
+        height: 300px;
+  width: 100%;
+  border:2px solid grey;
+  background-color: rgb(233, 229, 229);    
+     }
+
+
+
