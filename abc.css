@@ -1,0 +1,25 @@
+.main{
+    font-family:cursive; 
+background-color:antiquewhite;
+}
+table, th, td {
+    border: 1px solid black;
+}
+th, td {
+    padding: 10px;
+}
+form{
+   height: 500px; 
+    width: 500px;
+        background-color: lightgrey;
+        border: 8px solid blue;
+        padding: 70px;
+        margin: 20px;
+        
+}
+
+
+
+
+
+
