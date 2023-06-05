@@ -1,0 +1,84 @@
+https://myneta.info/tamilnadu2016/
+Electroal Login User Detail
+
+
+Returning Officer
+
+Returning Officer In every constituency, one Officer is designated as Returning Officer by the Commission in consultation with the concerned State government. However, an Officer can be nominated as Returning Officer for more than one constituency. All the nomination papers are submitted to the Returning Officer. Papers are scrutinised by him/her and if they are in order, accepted by him/her. Election symbols are allotted by him/her in accordance with the directions issued by the Election Commission. He/she also accepts withdrawal of the candidates and announces the final list. He/she supervises all the polling booths, votes are counted under his/her supervision and finally result is announced by him/her. In fact, the Returning Officer is the overall in charge of the efficient and fair conduct of elections in the concerned constituency.
+
+Presiding Officers
+
+Every constituency has a large number of polling booths. Each polling booth on an average caters to about a thousand votes. Every such booth is under the charge of an officer who is called the Presiding Officer. He/she supervises the entire process polling in the polling booth and ensures that every voter gets an opportunity to cast vote freely. After the polling is over, he/she seals all the ballot boxes and deliver them to the Returning Officer.
+
+Polling Officers
+
+Every Presiding Officer is assisted by three to four polling officers. They check the names of the voters in the electoral roll, put indelible ink on the finger of the voter, issue ballot papers and ensure that votes are secretly cast by each voter.
+
+Polling, Counting and Declaration of Result
+
+In order to conduct polling, large number of polling booths are set up in each constituency.
+
+Each booth is placed under the charge of a Presiding Officer with the Polling Officers to
+
+help the process.
+
+A voter casts his/her vote secretly in an enclosure, so that no other person comes to know
+
+of the choice he/she has made. It is known as secret ballot.
+
+After the polling is over, ballot boxes are sealed in the presence of agents of the candidates.
+
+Agents ensure that no voter is denied right to vote, provided the voter turns up comes
+
+within the prescribed time limit.
+
+
+
+
+
+
+===========
+Artificial narrow intelligence (ANI or narrow AI) refers to a computer's ability to perform a single task extremely well, such as crawling a webpage or playing chess. Artificial general intelligence (AGI) is when a computer program can perform any intellectual task that a human could.
+========================
+Feasibility of artificial superintelligence — Some argue that advances in artificial intelligence (AI) will probably result in general reasoning systems .
+==========
+
+
+In artificial intelligence, an expert system is a computer system that emulates the decision-making ability of a human expert. Expert systems are designed to solve complex problems by reasoning through bodies of knowledge, represented mainly as if-then rules rather than through conventional procedural code
+
+=======
+A machine vision system is a type of technology that allows a computing device to inspect, evaluate, and identify still or moving images. ... The implementation of AI has advanced the vision system. In other words, AI is used in vision systems for continuous improvement in recognition applications.
+====
+What is Siri? Is Siri AI? Siri is an integrated, voice-controlled personal assistant available for users of the Apple computing and telecommunications platform. Siri has been designed to offer a seamless way of interacting with the full range of Apple devices and has access to all the devices' built-in applications.
+========
+Tesla's Autopilot AI team drives the future of autonomy of current and new generations of vehicles. Learn about the team and apply to help accelerate the
+========
+COGITO is a free self-help app developed for people with depressive symptoms, but it can also be tested or used by people without mental health problems (e.g., treatment providers, relatives, students, people who want to further improve their well-being).
+========
+Google Nest is a line of smart home products including smart speakers, smart displays, streaming devices, thermostats, smoke detectors, routers and security systems including smart doorbells, cameras and smart locks
+
+CREATE TABLE `vt_division` (
+  `id` int(11) NOT NULL,
+  `district` varchar(30) NOT NULL,
+  `division` varchar(40) NOT NULL,
+  `vcount` int(11) NOT NULL,
+  UNIQUE KEY `division` (`division`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `vt_division`
+--
+
+INSERT INTO `vt_division` (`id`, `district`, `division`, `vcount`) VALUES
+(9, 'Chennai', 'Anna Nagar', 691),
+(1, 'Ariyalur', 'AR Nagar', 792),
+(4, 'Chennai', 'Cheppakkam', 764),
+(12, 'Theni', 'Cumbum', 652),
+(6, 'Coimbatore', 'Kavundampalayam', 765),
+(5, 'Erode', 'Kumarapalayam', 876),
+(11, 'Thanjavur', 'Papanasam', 938),
+(8, 'Tiruvarur', 'Ponneri', 730),
+(3, 'Tiruchirappalli', 'Ramji Nagar', 759),
+(10, 'Madurai', 'Sholavandan', 1027),
+(7, 'Coimbatore', 'Singanallur', 659),
+(2, 'Tiruchirappalli', 'Srirangam', 693);

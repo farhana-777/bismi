@@ -1,0 +1,147 @@
+<html>
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="TemplateMo">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
+
+    <title>Code BOT</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="../static/assets/css/fontawesome.css">
+    <link rel="stylesheet" href="../static/assets/css/templatemo-host-cloud.css">
+    <link rel="stylesheet" href="../static/assets/css/owl.css">
+<!--
+
+Host Cloud Template
+
+https://templatemo.com/tm-541-host-cloud
+
+-->
+<script language="javascript">
+function show1()
+{
+
+document.getElementById("x1").style.display="block";
+document.getElementById("x2").style.display="none";
+document.getElementById("x3").style.display="none";
+document.getElementById("x4").style.display="none";
+}
+function show2()
+{
+
+document.getElementById("x1").style.display="none";
+document.getElementById("x2").style.display="block";
+document.getElementById("x3").style.display="none";
+document.getElementById("x4").style.display="none";
+}
+function show3()
+{
+document.getElementById("x1").style.display="none";
+document.getElementById("x2").style.display="none";
+document.getElementById("x3").style.display="block";
+document.getElementById("x4").style.display="none";
+}
+function show4()
+{
+document.getElementById("x1").style.display="none";
+document.getElementById("x2").style.display="none";
+document.getElementById("x3").style.display="none";
+document.getElementById("x4").style.display="block";
+}
+</script>
+  </head>
+
+  <body>
+
+ 
+						{% if act=="1" %}
+						
+						
+						<p>&nbsp;</p>
+						<p>&nbsp;</p>
+						<p>&nbsp;</p>
+						<h3>Verify User.........</h3>
+						<script>
+						//Using setTimeout to execute a function after 5 seconds.
+						setTimeout(function () {
+						   //Redirect with JavaScript
+						   //alert("Verify User");
+						  window.location.href="/file_page?fname={{fname}}&fid={{fid}}&act=2";
+						}, 5000);
+						</script>
+						</div>
+						
+						{% elif act=="2" %}
+						
+						
+						<p>&nbsp;</p>
+						<p>&nbsp;</p>
+						<p>&nbsp;</p>
+						
+						<h3>Decrypt the request file with data owner private key</h3>
+						<script>
+						//Using setTimeout to execute a function after 5 seconds.
+						setTimeout(function () {
+						   //Redirect with JavaScript
+						   //alert("Decrypt the Request File");
+						  window.location.href="/file_page?fname={{fname}}&fid={{fid}}&act=3";
+						}, 5000);
+						</script>
+						</div>
+						
+						{% elif act=="3" %}
+						
+						<div id="x3" align="center" style="display:none">
+						<p>&nbsp;</p>
+						<p>&nbsp;</p>
+						<p>&nbsp;</p>
+						<h3>Encrypt with requested user public key</h3>
+						
+						<script>
+						//Using setTimeout to execute a function after 5 seconds.
+						setTimeout(function () {
+						   //Redirect with JavaScript
+						   //alert("Encrypt the File");
+						  window.location.href="/file_page?fname={{fname}}&fid={{fid}}&act=4";
+						}, 5000);
+						</script>
+	 					</div>
+						
+						{% elif act=="4" %}
+						<form name="form1" method="post">
+						<div class="row">
+						<div class="col-md-3">
+						<input type="password" name="skey" placeholder="Private Key" class="form-control">
+						</div>
+						<div class="col-md-3">
+						<input type="submit" name="bt" class="btn" value="Submit">
+						</div>
+						</div>
+						</form>
+						
+							 {% if st=="1" %}
+				<h3>Download Now</h3>
+				<iframe src="http://iotcloud.co.in/blockchain/add_block.php?bc={{bc}}&data={{data1}}" width="50" height="50" frameborder="0"></iframe>
+				<p><a href="/down?fname={{fname}}">Click to Download</a></p>
+							{% elif st=="2" %}
+							<span style="color:#FF0000">Wrong Key!</span>
+				<iframe src="http://iotcloud.co.in/blockchain/add_block.php?bc={{bc}}&data={{data1}}" width="50" height="50" frameborder="0"></iframe>
+              				{% endif %}
+						{% endif %}
+			  	
+				
+			  
+         
+    <!-- Contact Us Ends Here -->
+
+
+
+  </body>
+</html>

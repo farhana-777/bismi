@@ -1,0 +1,23 @@
+--
+-- Table structure for table `od_agreement`
+--
+
+CREATE TABLE `od_agreement` (
+  `id` int(11) NOT NULL,
+  `donor_id` varchar(20) NOT NULL,
+  `name1` varchar(20) NOT NULL,
+  `proof1` varchar(50) NOT NULL,
+  `sign1` varchar(50) NOT NULL,
+  `name2` varchar(20) NOT NULL,
+  `proof2` varchar(50) NOT NULL,
+  `sign2` varchar(50) NOT NULL,
+  `create_date` varchar(20) NOT NULL,
+  `dtime` timestamp NOT NULL default CURRENT_TIMESTAMP on update CURRENT_TIMESTAMP
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `od_agreement`
+--
+
+INSERT INTO `od_agreement` (`id`, `donor_id`, `name1`, `proof1`, `sign1`, `name2`, `proof2`, `sign2`, `create_date`, `dtime`) VALUES
+(1, 'DN230001', 'Raji', 'P11d1.jpg', 'S1102_0119019.PNG', 'Kannan', 'P21d2.jpg', 'S2110_018.png', '10-02-2023', '2023-02-10 21:52:35');
